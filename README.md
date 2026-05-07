@@ -23,14 +23,6 @@
 - Delete with confirmation dialog
 - Results count display
 
-## Data Flow
-
-```
-User Action → Zustand Store → AsyncStorage (persist)
-                    ↓
-              UI Re-renders
-```
-
 On app launch:
 ```
 AsyncStorage → Zustand Store → UI renders with saved data
